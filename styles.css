@@ -46,3 +46,28 @@ body {
   border-bottom: 70px solid #5e5e5e;
 }
 
+.cat-left-inner-ear {
+  position: absolute;
+  top: 22px;
+  left: -20px;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 40px solid #3b3b4f;
+}
+
+.cat-right-inner-ear {
+  position: absolute;
+  top: 22px;
+  left: -20px;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 40px solid #3b3b4f;
+}
