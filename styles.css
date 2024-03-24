@@ -71,3 +71,37 @@ body {
   border-right: 20px solid transparent;
   border-bottom: 40px solid #3b3b4f;
 }
+
+.cat-left-eye {
+  position: absolute;
+  top: 54px;
+  left: 39px;
+  border-radius: 60%;
+  transform: rotate(25deg);
+  width: 30px;
+  height: 40px;
+  background-color: #000;
+}
+
+.cat-right-eye {
+  position: absolute;
+  top: 54px;
+  left: 134px;
+  border-radius: 60%;
+  transform: rotate(-25deg);
+  width: 30px;
+  height: 40px;
+  background-color: #000;
+}
+
+.cat-left-inner-eye {
+  position: absolute;
+  top: 8px;
+  left: 2px;
+  width: 10px;
+  height: 20px;
+  transform: rotate(10deg);
+  background-color: #fff;
+  border-radius: 60%;
+}
+
