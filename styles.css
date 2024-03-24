@@ -128,3 +128,79 @@ body {
   border-right: 15px solid transparent;
   border-bottom: 20px solid #442c2c;
 }
+
+.cat-mouth div {
+  width: 30px;
+  height: 50px;
+  border: 2px solid #000;
+  border-radius: 190%/190px 150px 0 0;
+  border-color: black transparent transparent transparent;
+}
+
+.cat-mouth-line-left {
+  position: absolute;
+  top: 88px;
+  left: 74px;
+  transform: rotate(170deg);
+}
+
+.cat-mouth-line-right {
+  position: absolute;
+  top: 88px;
+  left: 91px;
+  transform: rotate(165deg);
+}
+
+.cat-whiskers-left div {
+  width: 40px;
+  height: 1px;
+  background-color: #000;
+}
+
+.cat-whiskers-right div {
+  width: 40px;
+  height: 1px;
+  background-color: #000;
+}
+
+.cat-whisker-left-top {
+  position: absolute;
+  top: 120px;
+  left: 52px;
+  transform: rotate(10deg);
+}
+
+.cat-whisker-left-middle {
+  position: absolute;
+  top: 127px;
+  left: 52px;
+  transform: rotate(3deg);
+}
+
+.cat-whisker-left-bottom {
+  position: absolute;
+  top: 134px;
+  left: 52px;
+  transform: rotate(-3deg);
+}
+
+.cat-whisker-right-top {
+  position: absolute;
+  top: 120px;
+  left: 109px;
+  transform: rotate(-10deg);
+}
+
+.cat-whisker-right-middle {
+  position: absolute;
+  top: 127px;
+  left: 109px;
+  transform: rotate(-3deg);
+}
+
+  .cat-whisker-right-bottom {
+  position: absolute;
+  top: 134px;
+  left: 109px;
+  transform: rotate(3deg);
+}
