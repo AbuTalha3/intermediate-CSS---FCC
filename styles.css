@@ -105,3 +105,13 @@ body {
   border-radius: 60%;
 }
 
+.cat-right-inner-eye {
+  position: absolute;
+  top: 8px;
+  left: 18px;
+  transform: rotate(-5deg);
+  width: 10px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 60%;
+}
